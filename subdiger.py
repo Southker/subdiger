@@ -6,7 +6,7 @@ print("\n\n")
 print("IF YOU WANT TO STOP THE ENUMERATION PRESS Ctrl+C")
 print("\n\n")
 
-banner = pyfiglet.figlet_format("Tool for Subdomain Enum")
+banner = pyfiglet.figlet_format("SubDiger")
 print(banner)
 
 if len(sys.argv) == 1:
