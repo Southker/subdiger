@@ -1,4 +1,4 @@
-# subdiger
+# subdiger Explanation
 This tool helps to identify subdomains of a website contains flag "-o" & "-w" to specify output file and to use custom wordlists.
 1) First import libraries as per requirement.
 2) Then create a banner for better outlook with the text &quot;Tool for Subdomain Enum&quot;
@@ -18,3 +18,30 @@ error and also check for status codes such as 403, 500, 404.
 7) Then the next except block will pass it as connection error if neither of the above happens else block
 will execute and print the message with valid subdomain as &quot;https://mail.google.com&quot;.
 8) If user interrupt or stop the enumeration then the last except block will execute.
+
+
+**Usage**
+python3 sub_domain.py -h                                                                                                   
+
+IF YOU WANT TO STOP THE ENUMERATION PRESS Ctrl+C
+
+ ____        _     ____  _                 
+/ ___| _   _| |__ |  _ \(_) __ _  ___ _ __ 
+\___ \| | | | '_ \| | | | |/ _` |/ _ \ '__|
+ ___) | |_| | |_) | |_| | | (_| |  __/ |   
+|____/ \__,_|_.__/|____/|_|\__, |\___|_|   
+                           |___/           
+
+usage: sub_domain.py [-h] [-o OUTPUT] [-w WORDLIST] domain
+
+Subdomain Enumeration Script
+
+positional arguments:
+  domain                The domain to enumerate subdomains for
+
+options:
+  -h, --help            show this help message and exit
+  -o OUTPUT, --output OUTPUT
+                        Output file to save valid subdomains
+  -w WORDLIST, --wordlist WORDLIST
+                        Custom wordlist file
