@@ -41,7 +41,9 @@ positional arguments:
 
 options:
   -h, --help            show this help message and exit
+  
   -o OUTPUT, --output OUTPUT
                         Output file to save valid subdomains
+  
   -w WORDLIST, --wordlist WORDLIST
                         Custom wordlist file
