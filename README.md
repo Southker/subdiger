@@ -1,5 +1,5 @@
 # subdiger
-This tool helps to identify subdomains of a website 
+This tool helps to identify subdomains of a website contains flag "-o" & "-w" to specify output file and to use custom wordlists.
 1) First import libraries as per requirement.
 2) Then create a banner for better outlook with the text &quot;Tool for Subdomain Enum&quot;
 3) After that, checking whether the argument which the domain name has been entered by the user or
